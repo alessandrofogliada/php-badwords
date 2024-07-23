@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Badwords</title>
+</head>
+<body>
+
+    <h1>PHP Badwords</h1>
+
+    <form action="pagina-di-atterraggio.php" method="get">
+
+        <input type="text" placeholder="inserisci paragrafo" name="paragrafo" >
+
+        <br>
+
+        <input type="text" placeholder="quale parola vuoi censurare ?" name="parolaCensurata">
+
+        <br>
+
+        <button type="submit"> Invia </button>
+
+    </form>
+    
+</body>
+</html>
+
+<style>
+    input{
+        height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    button{
+        height: 3rem;
+    }
+
+    
+</style>
+
+<!-- Descrizione:
+Creare un form PHP che permetta di inviare due campi: un paragrafo ed una parola da censurare.Gestire il tutto con due file diversi.
+Il primo file dovrà permettere all’utente di inserire i dati e inviare la richiesta al server.Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
+- stampare a schermo il paragrafo e la sua lunghezza
+- stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare -->
+
+
+<!--  ESECUZIONE DELL'ESERCIZIO -->
+
+<!-- NELLA PAGINA INDEX.HTML; CREARE UN FORM CON DUE CAMPI , UNO DI TESTO ED IL SECONDO UNA PAROLA DA CENSURARE --> 
+
+<!-- FORM CON ALL'INTERNO UN "ACTION" CON IL NOME DEL FILE PHP IN MODO CHE CI REINDIRIZZI ALLA PAGINA DI ATTERRAGGIO(RISPOSTA) ED UN "METHOD" GET -->
+
+<!-- 1° CAMPO INPUT TYPE TEXT -->
+
+<!-- 2° CAMPO INPUT TYPE TEXT CON LA PAROLA DA CENSURARE -->
+
+
+<!-- NELLA PAGINA PHP DOVREMMO RIPORTARE LE DUE STRINGE CREATE NELL HTML  -->
+
+<!-- NELLA SEZIONE PHP CREEREMO DELLE VARIABILI CON I NOMI ASSEGNATI CON "ACTION" NELL'HTML  -->
+
